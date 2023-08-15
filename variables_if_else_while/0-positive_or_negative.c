@@ -4,11 +4,9 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main function
- *
- * Return: 0
+ * main - A program that print if a number is negative, zero or positive
+ * Return: 0 (Success)
  */
-
 int main(void)
 {
 		int n;
@@ -23,3 +21,4 @@ int main(void)
 				else
 					printf("%d is negative", n);
 				return (0);
+}
